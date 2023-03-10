@@ -6,4 +6,5 @@ each file contain an executable script as a task solution
 			-- You can assume that the user betty will exist when we will run your script
 - Write a script that prints the effective username of the current user.
 - Write a script that prints all the groups the current user is part of.
-- Write a script that changes the owner of the file hello to the user betty. 
+- Write a script that changes the owner of the file hello to the user betty.
+- Write a script that creates an empty file called hello. 
