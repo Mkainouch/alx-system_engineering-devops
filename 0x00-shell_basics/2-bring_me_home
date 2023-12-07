@@ -1,14 +1,3 @@
 #!/bin/bash
-
-# Get the username
-username=$(whoami)
-
-# Get the home directory path
-home_directory=$(getent passwd "$username" | cut -d: -f6)
-
-# Change the working directory to the home directory
-cd "$home_directory"
-
-# Print the current working directory
-pwd
+cd /home/$(whoami)
 
